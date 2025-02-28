@@ -17,7 +17,7 @@ def performance_prediction(input_data):
     input_data_reshaped = input_data_array.reshape(1, -1)
 
     # Getting a prediction
-    prediction = trained_model.predict(input_data_reshaped)
+    prediction = loaded_model.predict(input_data_reshaped)
 
     if prediction[0] == 0:
         return "This student is not eligible"
