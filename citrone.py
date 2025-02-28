@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open("Trained_model.pkl", "rb"))
+loaded_model = pickle.load(open("trained_model.pkl", "rb"))
 
 # A function that will process the user input
 
